@@ -6,7 +6,6 @@ import {
   decryptAES,
   decryptionAPI,
 } from "../utils/Encryption";
-import BlogDetail from "../pages/blogDetail/BlogDetail";
 //application routes
 export const Routes = {
 
