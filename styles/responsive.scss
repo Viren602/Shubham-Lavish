@@ -1,91 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 h1 {
-    font-family: "Raleway", sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-size: 54px;
     font-weight: 700;
     line-height: 68px;
 }
 
 h2 {
-    font-family: "Raleway", sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-size: 46px;
     font-weight: 600;
     line-height: 58px;
 }
 
 h3 {
-    font-family: "Raleway", sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-size: 40px;
     font-weight: 600;
     line-height: 50px;
 }
 
 h4 {
-    font-family: "Raleway", sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-size: 34px;
     font-weight: 500;
     line-height: 44px;
 }
 
 h5 {
-    font-family: "Raleway", sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-size: 28px;
     font-weight: 500;
     line-height: 36px;
 }
 
 h6 {
-    font-family: "Raleway", sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-size: 22px;
     font-weight: 500;
     line-height: 28px;
 }
 
-a,
 p {
-    font-family: "Inconsolata", monospace;
+    font-family: "Quicksand", sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 22px;
     color: #3D3D3D;
 }
 
+a,
+li {
+    font-family: "Quicksand", sans-serif;
+}
+
 button {
-    font-family: "Inconsolata", monospace;
+    font-family: "DM Sans", sans-serif;
 }
 
 @media only screen and (max-width: 1025px) {
     h1 {
-        font-family: "Raleway", sans-serif;
+        font-family: "DM Sans", sans-serif;
         font-size: 42px;
         font-weight: 700;
         line-height: 50px;
     }
 
     h2 {
-        font-family: "Raleway", sans-serif;
+        font-family: "DM Sans", sans-serif;
         font-size: 38px;
         font-weight: 600;
         line-height: 46px;
     }
 
     h3 {
-        font-family: "Raleway", sans-serif;
+        font-family: "DM Sans", sans-serif;
         font-size: 34px;
         font-weight: 600;
         line-height: 42px;
     }
 
     h4 {
-        font-family: "Raleway", sans-serif;
+        font-family: "DM Sans", sans-serif;
         font-size: 30px;
         font-weight: 500;
         line-height: 38px;
     }
 
     h5 {
-        font-family: "Raleway", sans-serif;
+        font-family: "DM Sans", sans-serif;
         font-size: 26px;
         font-weight: 500;
         line-height: 32px;
