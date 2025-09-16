@@ -64,7 +64,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
-
+<div className=""></div>
         <div className="container">
           <div className="inner">
             <div className="flex mt-[60px] gap-[50px]">
