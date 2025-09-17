@@ -29,9 +29,9 @@ export const Routes = {
     isQueryParams: true,
     isEncryptParams: false,
   },
-  porfolio: {
-    rawPath: "/portfolio/Portfolio",
-    urlPath: "/portfolio",
+  project: {
+    rawPath: "/project/Project",
+    urlPath: "/project",
     isQueryParams: true,
     isEncryptParams: false,
   },

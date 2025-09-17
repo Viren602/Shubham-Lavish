@@ -21,7 +21,7 @@ module.exports = {
       { source: "/contact", destination: "/contact/Contact" },
 
       //Portfolio page
-      { source: "/portfolio", destination: "/portfolio/Portfolio" },
+      { source: "/project", destination: "/project/Project" },
     ];
   },
 };

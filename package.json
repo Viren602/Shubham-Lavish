@@ -21,6 +21,7 @@
     "axios": "^0.24.0",
     "canvas-confetti": "^1.9.3",
     "crypto-js": "^4.1.1",
+    "embla-carousel-react": "^8.6.0",
     "file-saver": "^2.0.5",
     "font-awesome": "^4.7.0",
     "framer-motion": "^4.1.17",
