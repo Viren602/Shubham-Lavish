@@ -22,6 +22,9 @@ module.exports = {
 
       //Portfolio page
       { source: "/project", destination: "/project/Project" },
+
+      { source: "/project-detail", destination: "/project/Project-info" },
+
     ];
   },
 };

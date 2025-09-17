@@ -36,10 +36,7 @@ export default function Header() {
                   <Link href="/about">ABOUT US</Link>
                 </li>
                 <li>
-                  <Link href="/services">SERVICES</Link>
-                </li>
-                <li>
-                  <Link href="/blog">BLOG</Link>
+                  <Link href="/project">PROJECTS</Link>
                 </li>
                 <li>
                   <button className="text-black px-4 py-2 rounded-lg">
@@ -54,13 +51,13 @@ export default function Header() {
             <div className="flex gap-[25px]">
               <Link href="/">HOME</Link>
               <Link href="/about">ABOUT US</Link>
-              <Link href="/services">SERVICES</Link>
-              <Link href="/blog">BLOG</Link>
+              <Link href="/project">PROJECT</Link>
             </div>
             <div>
-              <button className="text-black px-4 py-2 rounded-lg border-[2px]">
+              <Link href='/contact'><button className="text-black px-4 py-2 rounded-lg border-[2px]">
                 CONTACT US
               </button>
+              </Link>
             </div>
           </nav>
         </div>

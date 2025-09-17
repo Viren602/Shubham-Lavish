@@ -1,5 +1,6 @@
 import React, { useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
+import { Navigate, Routes } from '../../navigation/NavigationLib'
 
 const Project = ({ options }) => {
   const [emblaRef, emblaApi] = useEmblaCarousel({
@@ -8,15 +9,17 @@ const Project = ({ options }) => {
     containScroll: "trimSnaps",
   });
 
+  
+
   const scrollPrev = useCallback(() => emblaApi && emblaApi.scrollPrev(), [emblaApi]);
   const scrollNext = useCallback(() => emblaApi && emblaApi.scrollNext(), [emblaApi]);
 
   const slides = [
-    { id: 1, img: "https://picsum.photos/id/1015/600/350" },
-    { id: 2, img: "https://picsum.photos/id/1016/600/350" },
-    { id: 3, img: "https://picsum.photos/id/1018/600/350" },
-    { id: 4, img: "https://picsum.photos/id/1020/600/350" },
-    { id: 5, img: "https://picsum.photos/id/1024/600/350" },
+    { id: 1, img: "info-img 4.png" },
+    { id: 2, img: "project-img-1.png" },
+    { id: 3, img: "project-img-3.png" },
+    { id: 4, img: "furniture.png" },
+    { id: 5, img: "house-hall.png" },
   ];
 
   return (
@@ -32,7 +35,7 @@ const Project = ({ options }) => {
                 From residential to commercial, our work reflects craftsmanship,
                 reliability, and innovation.
               </p>
-              <button className="mb-[20px] text-sm md:text-base lg:text-lg">
+              <button className="mb-[20px] text-sm md:text-base lg:text-lg bg-gray-950 text-white py-[5px] px-[9px] border rounded">
                 CONTACT US <span>→</span>
               </button>
             </div>
@@ -60,14 +63,54 @@ const Project = ({ options }) => {
                 ))}
               </div>
             </div>
-            <div className="project-details flex items-start justify-between mt-[25px]">
-              <div className="project-name">
-                <h2>Project Name</h2>
-                <div className="info grid gap-[4px]">
-                  <span className="text-[20px] font-semibold text-black">Type: Commercial</span>
-                  <span className="text-[20px] font-semibold text-black">Location: Ahmedabad</span>
+            
+            <div className="project-details flex items-start mt-[25px]">
+            <div className="project-name my-10">
+                  <h2 className="text-2xl font-bold mb-4" onClick={() => Navigate(Routes.projectDetail)}>Project Name</h2>
+                  <div className="info sm:gap-6 mb-4">
+                    <p className="text-lg sm:text-xl font-semibold text-black">
+                      Type: Residential
+                    </p>
+                    <span className="text-lg sm:text-xl font-semibold text-black">
+                      Location: Ahmedabad
+                    </span>
+                  </div>
+                  <div className="w-full grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
+                    <img
+                      src="project-img-1.png"
+                      className="w-full h-64 sm:h-full object-cover col-span-1 sm:col-span-2 rounded-lg"
+                      alt="Project 1 Image 1"
+                    />
+                    <img
+                      src="project-img-2.png"
+                      className="w-full h-64 sm:h-full object-cover rounded-lg"
+                      alt="Project 1 Image 2"
+                    />
+                  </div>
+                  <h2 className="text-2xl font-bold mb-4" onClick={() => Navigate(Routes.projectDetail)}>Project Name</h2>
+                  <div className="info sm:gap-6 mb-4">
+                    <p className="text-lg sm:text-xl font-semibold text-black">
+                      Type: Commercial
+                    </p>
+                    <p className="text-lg sm:text-xl font-semibold text-black">
+                      Location: Gandhhinagar
+                    </p>
+                  </div>
+
+                  <div className="w-full grid grid-cols-1 sm:grid-cols-3 gap-4">
+                    <img
+                      src="project-img-3.png"
+                      className="w-full h-full sm:h-full object-cover col-span-1 sm:col-span-2 rounded-lg"
+                      alt="Project 2 Image 1"
+                    />
+                    <img
+                      src="project-img-4.png"
+                      className="w-full h-full sm:h-full object-cover rounded-lg"
+                      alt="Project 2 Image 2"
+                    />
+                  </div>
                 </div>
-              </div>
+
               <div className="slide-nav flex items-center gap-2.5">
                 <button
                   onClick={scrollPrev}

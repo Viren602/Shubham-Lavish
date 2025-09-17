@@ -35,6 +35,12 @@ export const Routes = {
     isQueryParams: true,
     isEncryptParams: false,
   },
+  projectDetail: {
+    rawPath: "/project/Project-info",
+    urlPath: "/project-detail",
+    isQueryParams: true,
+    isEncryptParams: false,
+  },
 
 };
 
