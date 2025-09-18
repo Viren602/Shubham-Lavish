@@ -4,7 +4,7 @@ function CTA(props) {
   return (
     <div className="cta-outer bg-[url('/CTC.png')] bg-cover bg-center bg-no-repeat py-[80px] sm:p-[20px]">
       <div className="container">
-        <div className="cta-inner w-full w-[40%] w-full mx-auto">
+        <div className="cta-inner w-full w-[40%] w-full mx-auto py-[45px]">
           <h4 className="lg:w-[500px] lg:text-[30px] text-2xl">
             {props.title}
           </h4>

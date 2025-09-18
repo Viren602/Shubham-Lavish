@@ -9,8 +9,6 @@ const Project = ({ options }) => {
     containScroll: "trimSnaps",
   });
 
-  
-
   const scrollPrev = useCallback(() => emblaApi && emblaApi.scrollPrev(), [emblaApi]);
   const scrollNext = useCallback(() => emblaApi && emblaApi.scrollNext(), [emblaApi]);
 
@@ -28,9 +26,9 @@ const Project = ({ options }) => {
         <div className="container">
           <div className="project-banner-inner my-[60px] text-sm">
             <div>
-              <h3 className="text-xl md:text-2xl lg:text-5xl font-semibold">
+              <h1 className="text-xl md:text-2xl lg:text-5xl font-semibold">
                 Our Projects
-              </h3>
+              </h1>
               <p className="my-[20px] lg:w-[600px] text-sm md:text-base lg:text-lg">
                 From residential to commercial, our work reflects craftsmanship,
                 reliability, and innovation.
@@ -68,9 +66,9 @@ const Project = ({ options }) => {
             <div className="project-name my-10">
                   <h2 className="text-2xl font-bold mb-4" onClick={() => Navigate(Routes.projectDetail)}>Project Name</h2>
                   <div className="info sm:gap-6 mb-4">
-                    <p className="text-lg sm:text-xl font-semibold text-black">
+                    <span className="text-lg sm:text-xl font-semibold text-black">
                       Type: Residential
-                    </p>
+                    </span><br/>
                     <span className="text-lg sm:text-xl font-semibold text-black">
                       Location: Ahmedabad
                     </span>
@@ -89,12 +87,12 @@ const Project = ({ options }) => {
                   </div>
                   <h2 className="text-2xl font-bold mb-4" onClick={() => Navigate(Routes.projectDetail)}>Project Name</h2>
                   <div className="info sm:gap-6 mb-4">
-                    <p className="text-lg sm:text-xl font-semibold text-black">
+                    <span className="text-lg sm:text-xl font-semibold text-black">
                       Type: Commercial
-                    </p>
-                    <p className="text-lg sm:text-xl font-semibold text-black">
-                      Location: Gandhhinagar
-                    </p>
+                    </span><br/>
+                    <span className="text-lg sm:text-xl font-semibold">
+                      Location:Gandhhinagar
+                    </span>
                   </div>
 
                   <div className="w-full grid grid-cols-1 sm:grid-cols-3 gap-4">

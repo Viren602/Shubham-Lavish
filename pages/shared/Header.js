@@ -48,14 +48,15 @@ export default function Header() {
           </div>
 
           <nav className="hidden md:flex gap-[300px] items-center space-x-6">
-            <div className="flex gap-[25px]">
+            <div className="flex gap-[25px] font-semibold">
               <Link href="/">HOME</Link>
               <Link href="/about">ABOUT US</Link>
               <Link href="/project">PROJECT</Link>
             </div>
             <div>
-              <Link href='/contact'><button className="text-black px-4 py-2 rounded-lg border-[2px]">
+              <Link href='/contact'><button className="text-gray-950 px-4 py-2 rounded-lg border-2 border-gray-700 flex gap-3.5">
                 CONTACT US
+                <img src="next.png" className="w-[20px]"/>
               </button>
               </Link>
             </div>

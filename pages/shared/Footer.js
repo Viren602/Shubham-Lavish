@@ -16,9 +16,9 @@ export default class Footer extends Component {
                 </p>
               </div>
               <div>
-                <h6 className="font-semibold mb-4">About</h6>
+                <span className="font-semibold mb-4 text-xl">About</span>
                 <ul className="space-y-2 text-gray-600">
-                  <li>About Us</li>
+                  <li className="my-[10px]">About Us</li>
                   <li>Services</li>
                   <li>Portfolio</li>
                   <li>Contact Us</li>
@@ -27,20 +27,20 @@ export default class Footer extends Component {
                 </ul>
               </div>
               <div>
-                <h6 className="font-semibold mb-4">Office</h6>
+                <span className="font-semibold mb-4 text-xl">Office</span>
                 <ul className="space-y-2 text-gray-600">
-                  <li>Scandinavian Design</li>
+                  <li className="my-[10px]">Scandinavian Design</li>
                   <li>Smart House</li>
                   <li>Modern Design</li>
                   <li>Minimalist Design</li>
                 </ul>
               </div>
               <div className="md:w-1/4">
-                <h6 className="font-semibold mb-4">Stay Tuned for Updates</h6>
+                <span className="font-semibold text-xl">Stay Tuned for Updates</span>
                 <input
                   type="text"
                   placeholder="Email"
-                  className="w-full border border-gray-300 px-3 py-2 rounded-md mb-4"
+                  className="w-full border border-gray-300 px-3 py-2 rounded-md my-4"
                 />
                 <ul>
                   <li className="flex gap-4">

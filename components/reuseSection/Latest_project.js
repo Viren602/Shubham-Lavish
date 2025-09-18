@@ -5,11 +5,11 @@ const Latest_project = () => {
     <div className="latest-project">
       <div className="container">
         <div className="latest-project-inner my-[90px]">
-          <h6 className="text-xl sm:text-2xl md:text-3xl lg:text-xl font-bold">
+          <span className="text-xl sm:text-2xl md:text-3xl lg:text-xl font-bold">
             Our Project
-          </h6>
-          <h3 className="mt-[10px] sm:text-2xl md:text-3xl lg:text-4xl font-bold">
-             Our Latest Project</h3>
+          </span>
+          <h2 className="mt-[10px] sm:text-2xl md:text-xl lg:text-4xl font-bold my-[20px]">
+             Our Latest Project</h2>
           <div className="static mt-[20px]">
             <img src="Furniture.png" />
             {/* <h6 className="absolute lg:text-[25px] top-[3220px] left-[20px] sm:top-[2300px] md:top-[2300px] lg:left-[100px] text-white">Hanani Home</h6>
