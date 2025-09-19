@@ -53,7 +53,7 @@ const Project = ({ options }) => {
                     className="project__slide flex-[0_0_80%]"
                   >
                     <img
-                      className="w-full h-[450px] object-cover rounded-xl shadow-lg"
+                      className="w-full h-[450px] object-cover shadow-lg"
                       src={slide.img}
                       alt={`Slide ${slide.id}`}
                     />
@@ -76,12 +76,12 @@ const Project = ({ options }) => {
                   <div className="w-full grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
                     <img
                       src="project-img-1.png"
-                      className="w-full h-64 sm:h-full object-cover col-span-1 sm:col-span-2 rounded-lg"
+                      className="w-full h-64 sm:h-full object-cover col-span-1 sm:col-span-2"
                       alt="Project 1 Image 1"
                     />
                     <img
                       src="project-img-2.png"
-                      className="w-full h-64 sm:h-full object-cover rounded-lg"
+                      className="w-full h-64 sm:h-full object-cover"
                       alt="Project 1 Image 2"
                     />
                   </div>
@@ -98,12 +98,12 @@ const Project = ({ options }) => {
                   <div className="w-full grid grid-cols-1 sm:grid-cols-3 gap-4">
                     <img
                       src="project-img-3.png"
-                      className="w-full h-full sm:h-full object-cover col-span-1 sm:col-span-2 rounded-lg"
+                      className="w-full h-full sm:h-full object-cover col-span-1 sm:col-span-2"
                       alt="Project 2 Image 1"
                     />
                     <img
                       src="project-img-4.png"
-                      className="w-full h-full sm:h-full object-cover rounded-lg"
+                      className="w-full h-full sm:h-full object-cover"
                       alt="Project 2 Image 2"
                     />
                   </div>

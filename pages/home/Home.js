@@ -73,7 +73,7 @@ const Home = () => {
                 <img
                   src="banner.png"
                   alt="Banner"
-                  className="w-full h-auto rounded-md"
+                  className="w-full h-auto"
                 />
               </div>
             </div>
@@ -82,14 +82,9 @@ const Home = () => {
 
         <div className="home-page-inner mx-auto px-4 mt-10">
           <div className="container">
-            <div className="md:flex items-center">
-              <div className="text-center mt-[15px]">
-                <span className="text-lg md:text-xl">
-                  Trusted By <span className="font-bold">75+ Partners</span>
-                </span>
-              </div>
+            <div className="md:flex">
               <div className="mt-6">
-                <ul className="flex flex-wrap justify-center items-center gap-6 md:gap-10">
+                <ul className="flex flex-wrap items-center gap-6 md:gap-10">
                   <li>
                     <img src="Logo-1.png" className="h-6 sm:h-8 md:h-10" />
                   </li>
@@ -120,10 +115,10 @@ const Home = () => {
             <div className="frame-inner flex flex-col lg:flex-row mt-12 gap-[60px]">
               <div className="relative flex gap-6">
                 <div>
-                  <img src="frame-image.png" className="w-full rounded-lg" />
+                  <img src="frame-image.png" className="w-full" />
                 </div>
                 <div className="relative">
-                  <img src="hall-image.png" className="w-full rounded-lg" />
+                  <img src="hall-image.png" className="w-full" />
                   <div className="absolute my-[20px] lg:mx-[-40px] mx-[-20px]">
                     <img
                       src="frame-info.png"
@@ -133,8 +128,8 @@ const Home = () => {
                 </div>
               </div>
               <div className="lg:w-1/2 mt-10 lg:mt-14 text-left lg:text-left">
-                <span className="text-sm uppercase tracking-wide text-gray-500 mb-2">
-                  ---- HELLO THERE
+                <span className="text-sm flex tracking-wide items-center text-gray-900 mb-2">
+                  <p className="h-[2px] w-[70px] bg-gray-800 mr-[10px]"></p> Hello There
                 </span>
                 <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold leading-snug my-4">
                   We work professionally <br className="hidden lg:block" />
@@ -166,20 +161,20 @@ const Home = () => {
                   <li>
                     <img
                       src="interior design.png"
-                      className="w-full sm:w-auto rounded-lg"
+                      className="w-full sm:w-auto"
                     />
                   </li>
                   <li>
                     {" "}
                     <img
                       src="Architecture.png"
-                      className="w-full sm:w-auto rounded-lg"
+                      className="w-full sm:w-auto"
                     />
                   </li>
                   <li>
                     <img
                       src="Furniture Design.png"
-                      className="w-full sm:w-auto rounded-lg"
+                      className="w-full sm:w-auto"
                     />
                   </li>
                 </ul>

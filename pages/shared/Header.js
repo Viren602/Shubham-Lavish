@@ -5,7 +5,7 @@ export default function Header() {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <header className="bg-white shadow-md">
+    <header className="bg-white">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-4">
           <div className="w-[100px]">
@@ -47,14 +47,14 @@ export default function Header() {
             </div>
           </div>
 
-          <nav className="hidden md:flex gap-[300px] items-center space-x-6">
-            <div className="flex gap-[25px] font-semibold">
+          <nav className="hidden md:flex gap-[300px] items-center">
+            <div className="flex gap-[25px] font-semibold xl-[50px] md:mx-[-189px] lg:mx-[-70px] xl:mx-[50px] sm-[200px]">
               <Link href="/">HOME</Link>
               <Link href="/about">ABOUT US</Link>
               <Link href="/project">PROJECT</Link>
             </div>
             <div>
-              <Link href='/contact'><button className="text-gray-950 px-4 py-2 rounded-lg border-2 border-gray-700 flex gap-3.5">
+              <Link href='/contact'><button className="text-gray-950 px-4 py-2 border-2 border-gray-700 flex gap-3.5">
                 CONTACT US
                 <img src="next.png" className="w-[20px]"/>
               </button>
