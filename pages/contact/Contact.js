@@ -117,7 +117,7 @@ function Contact() {
 
                 <div className="flex gap-5 items-start text-[16px]">
                   <div className="call-icon w-[30px] h-[30px] bg-black flex items-center justify-center">
-                    <i class="fi fi-rr-phone-call text-white text-[15px] h-[15px] leading-tight"></i>
+                    <i className="fi fi-rr-phone-call text-white text-[15px] h-[15px] leading-tight"></i>
                   </div>
                   <div className="my-[-5px]">
                     <span className="font-semibold">Call Us</span>
@@ -128,7 +128,7 @@ function Contact() {
 
                 <div className="flex gap-5 items-start text-[16px]">
                   <div className="mail-icon w-[30px] h-[30px] bg-black flex items-center justify-center">
-                    <i class="fi fi-rr-envelope text-white text-[15px] h-[15px] leading-tight"></i>
+                    <i className="fi fi-rr-envelope text-white text-[15px] h-[15px] leading-tight"></i>
                   </div>
                   <div className="my-[-5px]">
                     <span className="font-semibold">Mail Us</span>
@@ -139,7 +139,7 @@ function Contact() {
 
                 <div className="flex gap-5 items-start">
                   <div className="location-icon w-[30px] h-[30px] bg-black flex items-center justify-center">
-                    <i class="fi fi-rr-marker text-white text-[15px] h-[15px] leading-tight"></i>
+                    <i className="fi fi-rr-marker text-white text-[15px] h-[15px] leading-tight"></i>
                   </div>
                   <div className="my-[-9px]">
                     <span className="font-semibold text-[16px]">Visit Us</span>
