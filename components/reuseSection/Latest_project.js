@@ -5,10 +5,10 @@ const Latest_project = () => {
     <div className="latest-project">
       <div className="container">
         <div className="latest-project-inner my-[90px]">
-          <span className="text-xl sm:text-2xl md:text-3xl lg:text-xl font-bold">
-            Our Project
+          <span className="text-xl sm:text-2xl md:text-3xl lg:text-xl font-semibold flex items-center gap-[20px]">
+            Our Project <p className="h-[2px] w-[70px] bg-gray-800 mr-[10px] mt-[5px]"></p>
           </span>
-          <h2 className="mt-[10px] sm:text-2xl md:text-xl lg:text-4xl font-bold my-[20px]">
+          <h2 className="text-[23px] sm:text-3xl lg:text-4xl font-bold leading-snug my-4">
              Our Latest Project</h2>
           <div className="static mt-[20px]">
             <img src="Furniture.png" />

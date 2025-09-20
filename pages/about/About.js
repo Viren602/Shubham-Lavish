@@ -2,7 +2,7 @@ import React, { Component, createRef } from "react";
 import Latest_project from "../../components/reuseSection/latest_project";
 import CTA from "../../components/reuseSection/CTA";
 
-function About() {
+function About()   {
   return (
     <>
       <div className="about-page">
@@ -22,26 +22,26 @@ function About() {
           <div className="container">
             <div className="mission-inner flex flex-col lg:flex-row gap-10 lg:gap-20 items-center ">
               <div className="w-full lg:w-1/2 order-2 lg:order-1 space-y-4 text-center lg:text-left lg:mt-[50px] md:mt-[100px]">
-                <span className="text-base font-semibold">Who We Are</span>
-                <h2 className="text-xl md:text-3xl font-bold leading-snug">
+                <span className="text-base font-semibold flex items-center"><p className="h-[2px] w-[45px] bg-gray-800 mr-[10px]"></p>Who We Are</span>
+                <h2 className="text-xl md:text-3xl text-left font-bold leading-snug">
                   Crafting Spaces, <br /> Creating Futures
                 </h2>
-                <p className="text-sm md:text-base leading-relaxed text-gray-700">
+                <p className="text-sm md:text-base leading-relaxed text-left text-gray-700">
                   At Shubham Lavis Construction Company, we believe that
                   construction is not just about building structures—it’s about
                   building trust, relationships, and a better future. Since our
                   inception, we have been committed to delivering projects that
                   combine quality, innovation, and precision.
                 </p>
-                <p className="text-sm md:text-base">
+                <p className="text-sm md:text-base text-left">
                   At Shubham Lavis, we don’t just construct buildings; we create
                   spaces that inspire confidence and stand strong for
                   generations.
                 </p>
                 <br />
 
-                <span className="font-semibold">Our Mission</span>
-                <p className="text-sm md:text-base leading-relaxed text-gray-700">
+                <span className="font-semibold flex items-center">Our Mission <p className="h-[2px] w-[70px] bg-gray-800 mt-[5px] ml-[10px]"></p></span>
+                <p className="text-sm md:text-base leading-relaxed text-gray-700 text-left">
                   We believe that construction is not only about building
                   structures, but also about creating trust, value, and a better
                   future. At Shubham Lavis Construction Company, our mission is
@@ -63,8 +63,8 @@ function About() {
           <div className="container">
             <div className="choice-inner">
               <div className="text-center">
-                <span className="text-xl font-semibold">Why Choose Us</span>
-                <h2 className="py-[20px] text-xl lg:text-4xl">
+                <h4 className="text-xl font-semibold flex items-center xl:mx-[490px] lg:mx-[380px] md:mx-[255px] text-center">Why Choose Us <p className="h-[2px] w-[45px] bg-gray-800 mx-[10px] mt-[5px]"></p></h4>
+                <h2 className="py-[20px] text-xl capitalize lg:text-4xl">
                   Why We’re Your Best Choice
                 </h2>
                 <p>
@@ -126,7 +126,8 @@ function About() {
             </div>
           </div>
         </div>
-        <CTA />
+        <CTA title="Have A Question ? Start Consultation Now" />
+
         <Latest_project />
       </div>
     </>

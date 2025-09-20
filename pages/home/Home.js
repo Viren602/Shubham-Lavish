@@ -59,14 +59,14 @@ const Home = () => {
                 <h1 className="text-3xl lg:text-4xl md:text-2xl font-bold mt-6 md:w-[420px]">
                   Create A Modern And Unique Design Your Dream
                 </h1>
-                <p className="mt-4 text-gray-600 md:w-[500px]">
+                <p className="mt-4 text-gray-600 md:w-[350px] lg:w-[500px]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Adipiscing dui tellus commodo convallis. Auctor eget orci
                   pharetra non. Integer lorem in scelerisque tortor dui tempor
                 </p>
-                <button className="bg-black text-white flex items-center gap-2 px-5 py-2 mt-6 mx-auto md:mx-0">
+                <button className="bg-black text-white px-[15px] py-2 mt-6 mr-[105px] flex gap-[10px] text-[15px] mx-auto md:mx-0 my-[30px]">
                   VIEW A PROJECT
-                  <span>→</span>
+                  <span className="mt-[1px]"><i class="fi fi-rs-arrow-right text-[15px]"></i></span>
                 </button>
               </div>
               <div className="w-full md:w-1/2">
@@ -131,8 +131,8 @@ const Home = () => {
                 <span className="text-sm flex tracking-wide items-center text-gray-900 mb-2">
                   <p className="h-[2px] w-[70px] bg-gray-800 mr-[10px]"></p> Hello There
                 </span>
-                <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold leading-snug my-4">
-                  We work professionally <br className="hidden lg:block" />
+                <h2 className="text-[20px] sm:text-3xl lg:text-4xl font-bold leading-snug my-4">
+                  We work professionally 
                   and wholeheartedly
                 </h2>
                 <p className="text-gray-600 leading-relaxed text-sm sm:text-base md:w-[493px]">
@@ -152,12 +152,12 @@ const Home = () => {
         <div className="services">
           <div className="container">
             <div className="services-inner mt-[90px] flex-col md:flex-row items-center gap-10 mt-6">
-              <h6>Services</h6>
-              <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-[10px] w-full md:text-left ">
-                Our capacity to help make your wishes come true
+              <h6 className="flex items-center gap-[20px]">Services <p className="h-[2px] w-[70px] bg-gray-800 mr-[10px]"></p></h6>
+              <h2 className="text-[23px] sm:text-3xl lg:text-4xl md:text-2xl capitalize font-bold leading-snug my-4">
+                our capacity to help make your wishes come true
               </h2>
               <div className="mt-[20px]">
-                <ul className="flex lg:flex-row gap-4 flex-col">
+                <ul className="flex lg:flex-row gap-4 flex-col md:flex-row">
                   <li>
                     <img
                       src="interior design.png"
@@ -187,10 +187,10 @@ const Home = () => {
 
         <div className="testimonial overflow-hidden">
           <div className="container">
-            <h6>Testimonial</h6>
-            <h4 className="mt-[20px]">What Our Clients Say</h4>
+            <h6 className="flex items-center gap-[20px] text-[15px] lg:text-[20px] font-semibold">Testimonial <p className="h-[2px] w-[70px] bg-gray-800 mr-[10px]"></p></h6>
+            <h4 className="text-[23px] lg:text-[35px] capitalize font-bold mt-[20px]">What Our Clients Say</h4>
             <div className="" ref={emblaRef}>
-              <div className="slider-container flex lg: mb-[40px]">
+              <div className="slider-container flex lg:mb-[20px]">
                 {slides.map((slide) => (
                   <div
                     key={slide.id}
@@ -289,25 +289,25 @@ const Home = () => {
               </div>
             </div>
           </div> */}
-        <CTA title="Have A Question ? Start Consultation Now" />
+        <CTA title="Have A Question ? Start Consultation Now"/>
 
-        <div className="blog">
+        {/* <div className="blog">
           <div className="container">
             <div className="blog-inner my-[80px]">
-              <span className="text:xl lg:text-xl font-semibold">Our Blog</span>
-              <h2 className="text-xl lg:text-4xl font-bold mt-[20px]">
+              <span className="flex items-center gap-[20px] text-[15px] lg:text-[20px] font-semibold">Our Blog <p className="h-[2px] w-[70px] bg-gray-800 mr-[10px] mt-[5px]"></p></span>
+              <h2 className="text-[23px] capitalize lg:text-[35px] font-bold mt-[20px]">
                 Latest News and Articles
               </h2>
               <div className="md:flex gap-[40px] items-center">
                 <div className="my-[40px]">
                   <img src="Design1.png" className="mb-[20px]" />
-                  <span className="text-xl lg:text-2xl font-semibold">
+                  <span className="text-[15px] capitalize lg:text-2xl">
                     interior Design
                   </span>
-                  <h3 className="text-2xl lg:text-4xl  my-[10px]">
+                  <h3 className="text-2xl capitalize lg:text-3xl  my-[10px]">
                     Designer must be an interpreter
                   </h3>
-                  <p className="mt-[25px]">
+                  <p className="mt-[10px] text-xs lg:text-xl">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Adipiscing dui tellus commodo convallis. Auctor eget orci
                     pharetra non.
@@ -315,13 +315,13 @@ const Home = () => {
                 </div>
                 <div className="my-[50px]">
                   <img src="Design2.png" className="mb-[20px]" />
-                  <span className="text-xl lg:text-2xl font-semibold">
+                  <span className="text-[15px] capitalize lg:text-2xl">
                     interior Design
                   </span>
-                  <h3 className="text-xl lg:text-4xl my-[10px]">
+                  <h3 className="text-xl capitalize lg:text-3xl my-[10px]">
                     12 Best Outdoor Furniture Ideas
                   </h3>
-                  <p className="mt-[25px]">
+                  <p className="mt-[10px] text-xs lg:text-xl">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Adipiscing dui tellus commodo convallis. Auctor eget orci
                     pharetra non.
@@ -329,13 +329,13 @@ const Home = () => {
                 </div>
                 <div className="my-[50px]">
                   <img src="Design3.png" className="mb-[20px]" />
-                  <span className="text-xl lg:text-2xl font-semibold">
+                  <span className="text-[15px] capitalize lg:text-2xl">
                     interior Design
                   </span>
-                  <h3 className="text-xl lg:text-4xl my-[10px]">
-                    10 Of The Unique Buildings
+                  <h3 className="text-xl capitalize lg:text-3xl my-[10px]">
+                    10 Of The Unique <br/> Buildings
                   </h3>
-                  <p className="mt-[25px]">
+                  <p className="mt-[10px] text-xs lg:text-xl">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Adipiscing dui tellus commodo convallis. Auctor eget orci
                     pharetra non.
@@ -344,8 +344,8 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </div> */}
+      </div> 
     </>
   );
 };

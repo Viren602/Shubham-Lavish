@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 
 export default function Header() {
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(true);
 
   return (
     <header className="bg-white">
@@ -39,9 +39,9 @@ export default function Header() {
                   <Link href="/project">PROJECTS</Link>
                 </li>
                 <li>
-                  <button className="text-black px-4 py-2 rounded-lg">
+                  <Link href='/contact'><button className="text-gray-600 px-4 py-2 rounded-lg">
                     CONTACT US
-                  </button>
+                  </button></Link>
                 </li>
               </ul>
             </div>
